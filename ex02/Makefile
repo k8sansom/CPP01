@@ -6,22 +6,19 @@
 #    By: ksansom <ksansom@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/19 10:41:47 by ksansom           #+#    #+#              #
-#    Updated: 2024/03/22 15:00:47 by ksansom          ###   ########.fr        #
+#    Updated: 2024/03/22 15:00:25 by ksansom          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Target executable name
-NAME = moreBrainzz
+NAME = hiBrain
 
 # Compiler and compiler flags
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 
 
 # Source files
-SRCS =	main.cpp \
-		Zombie.cpp \
-		ZombieHorde.cpp
-		
+SRCS =	main.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
