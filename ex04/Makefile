@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 # Target executable name
-NAME = unnecessaryViolence
+NAME = Sed4Losers
 
 # Compiler and compiler flags
 CC = c++
@@ -19,9 +19,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 # Source files
 SRCS =	main.cpp \
-		HumanA.cpp \
-		HumanB.cpp \
-		Weapon.cpp
+		Sed4Losers.cpp
 		
 # Object files
 OBJS = $(SRCS:.cpp=.o)
