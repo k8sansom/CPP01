@@ -6,8 +6,8 @@ Sed4Losers::Sed4Losers( std::string filename, std::string s1, std::string s2) : 
 Sed4Losers:: ~Sed4Losers() {}
 
 int	Sed4Losers::replace(void) {
-	std::ifstream	infile(this->_filename);
-	std::ofstream	outfile(this->_filename + ".replace");
+	std::ifstream	infile(this->_filename.c_str());
+	std::ofstream	outfile((this->_filename + ".replace").c_str());
 	std::string 	line = "";
 	if (!infile) {
 		std::cout << "Error opening file: " << this->_filename << std::endl;
